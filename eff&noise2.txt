@@ -1,0 +1,32 @@
+#rate dei PMT nei punti di lavoro in 100 secondo 
+#e il rumore delle doppie e delle triple calcolato con le coincidenze ritardate
+#Vmon1  2       3       4       5       6
+1549    1770    1622    1862    1843    1853
+#Vthr1  2       3       4       5       6
+-55.8   -44.5   -44.4   -44.9    -42.8   -44.5
+#ij rit k = il segnale di PMTj è ritardato del delay_k 
+#ijk rit lm = il segnale di PMTj è ritardato del delay_l e il segnale PMTk è ritardato del delay m
+#R12    123     12rit1  123rit32
+773     533     1       0
+726     536     0       0
+#R13    123     13rit1  123rit32
+671     488     0       0
+693     532     0       0
+#R23    123     23rit1  123rit32
+683     515     2       0
+709     530     0       0
+#R54    654     54rit1  654rit32
+1707    1014    3       2
+1671    997     1       0
+#R64    654     64rit1  654rit32
+1116    1026    18      0
+1043    954     23      0
+#R65	654		65rit1	654rit32
+1932    1038    29      0
+1900    990     39      0
+#eff3 = [0.690, 0.738] +- [0.017, 0.016]
+#eff2 = [0.727, 0.768] +- [0.017, 0.016]
+#eff1 = [0.754, 0.747] +- [0.016, 0.016]
+#eff6 = [0.594, 0.585] +- [0.012, 0.012]
+#eff5 = [0.919, 0.915] +- [0.008, 0.009]
+#eff4 = [0.537, 0.521] +- [0.011, 0.011]
